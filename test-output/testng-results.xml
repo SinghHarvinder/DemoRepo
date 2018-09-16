@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Firefox Browser is lanched]]>
+    </line>
+    <line>
+      <![CDATA[navigating to url ]]>
+    </line>
+    <line>
+      <![CDATA[login Unsuccessfully]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Firefox Browser is lanched]]>
+    </line>
+    <line>
+      <![CDATA[navigating to url ]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[HomePage title is verified]]>
+    </line>
+    <line>
+      <![CDATA[HomePage Url is verified]]>
+    </line>
+    <line>
+      <![CDATA[HomePage logo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Running After Suite: ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84122" started-at="2018-02-19T13:51:48Z" finished-at="2018-02-19T13:53:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84122" started-at="2018-02-19T13:51:48Z" finished-at="2018-02-19T13:53:12Z">
+      <class name="com.mavendemo.scripts.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="setUp" is-config="true" duration-ms="58891" started-at="2018-02-19T19:21:48Z" finished-at="2018-02-19T19:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Browser is lanched]]>
+            </line>
+            <line>
+              <![CDATA[navigating to url ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLoginTest()[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="invalidLoginTest" duration-ms="3828" started-at="2018-02-19T19:22:47Z" finished-at="2018-02-19T19:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login Unsuccessfully]]>
+            </line>
+            <line>
+              <![CDATA[Invalid login message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="10" started-at="2018-02-19T19:22:51Z" finished-at="2018-02-19T19:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="setUp" is-config="true" duration-ms="8248" started-at="2018-02-19T19:22:51Z" finished-at="2018-02-19T19:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Browser is lanched]]>
+            </line>
+            <line>
+              <![CDATA[navigating to url ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="validLoginTest" duration-ms="12673" started-at="2018-02-19T19:22:59Z" finished-at="2018-02-19T19:23:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+            <line>
+              <![CDATA[HomePage title is verified]]>
+            </line>
+            <line>
+              <![CDATA[HomePage Url is verified]]>
+            </line>
+            <line>
+              <![CDATA[HomePage logo is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="14" started-at="2018-02-19T19:23:12Z" finished-at="2018-02-19T19:23:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.mavendemo.scripts.LoginTest@4b952a2d]" name="configAfterSuite" is-config="true" duration-ms="247" started-at="2018-02-19T19:23:12Z" finished-at="2018-02-19T19:23:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running After Suite: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.mavendemo.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
