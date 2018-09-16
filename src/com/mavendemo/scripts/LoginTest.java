@@ -34,6 +34,7 @@ public class LoginTest extends BaseLib{
 		OpenTasksPage otp= new OpenTasksPage(driver);
 	     otp.verifyHomePage(driver);
 	     otp.verifyHomepageLogo();
+		//add one line for git testing purpose
 	}
 
 	     @Test
