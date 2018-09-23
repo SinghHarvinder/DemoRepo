@@ -7,7 +7,9 @@ public class TestA
 	@Test
 	public void test1()
 	{
+		
 		System.out.println("Test1 method running");
+		System.out.println("Test1A method running");
 		}
 
 }
