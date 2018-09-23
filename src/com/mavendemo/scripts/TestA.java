@@ -8,8 +8,8 @@ public class TestA {
 	public void test1()
 	{
 		System.out.println("Test1 method running");
-		
 		System.out.println("Test2A method running");
+		System.out.println("Test3A method running");
 		}
 	
 	@Test 
