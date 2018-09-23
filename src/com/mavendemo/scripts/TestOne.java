@@ -15,5 +15,11 @@ public class TestOne
 		System.out.println("TestOne Class method testMethod1d");
 		System.out.println("TestOne Class method testMethod1e");
 	}
+	
+	@Test
+	public void testMethod2()
+	{
+                 System.out.println("TestOne Class method testMethod2");
+	}
 
 }
