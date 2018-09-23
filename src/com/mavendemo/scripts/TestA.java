@@ -11,3 +11,12 @@ public class TestA
 		}
 
 }
+
+
+
+@Test 
+public void test2()
+{
+
+		System.out.println("Test2 method running");	
+}
