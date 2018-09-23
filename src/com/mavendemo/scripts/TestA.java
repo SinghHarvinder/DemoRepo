@@ -9,7 +9,8 @@ public class TestA
 	{
 		
 		System.out.println("Test1 method running");
-		System.out.println("Test1A method running");
+		
+		System.out.println("Test2A method running");
 		}
 
 	@Test 
@@ -20,6 +21,11 @@ public class TestA
 	}
 }
 
+@Test 
+	public void test3()
+	{
 
+			System.out.println("Test3 method running");	
+	}
 
 
